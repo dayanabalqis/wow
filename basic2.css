@@ -1,0 +1,41 @@
+ul {
+  list-style-type: none;
+  margin: 50;
+  padding: 3;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 6px 33px;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: white;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #373737;
+   color: white;
+   text-align: center;
+}
